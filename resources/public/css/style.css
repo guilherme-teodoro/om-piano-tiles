@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.piano {
+  width: 400px;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-bottom: none;
+  height: 521px;
+  overflow: hidden;
+  padding: 0;
+  padding-top: 512px;
+  background: green;
+}
+
+.tiles-list {
+  display: flex;
+}
+
+.tiles-list ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.tile {
+  width: 100px;
+  height: 130px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.tile:first-child {
+}
+
+.white {
+  background: white;
+}
+
+.black {
+  background: black;
+}
